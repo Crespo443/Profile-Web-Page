@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+  }
+
+
+.jumbotron {
+position: relative;
+width: 100%;
+height: 400px;
+overflow: hidden;
+}
+
+.jumbotron .images {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+  
+.jumbotron-content {
+width: 40%;
+position: absolute;
+top: 50%;
+left: 25%;
+transform: translate(-50%, -50%);
+text-align: justify;
+color: #ffffff;
+font-size: 15px;
+}
+
+.jumbotron-content h1 {
+font-size: 35px;
+font-weight: 700;
+color: #ffffff;
+}
+
+.jumbotron-content h3 {
+    color:#b33822 ;
+}
+
+.jumbotron-content ul {
+    margin-block:20px;
+    display: flex;
+    list-style-type: none;
+}
+.jumbotron-content ul li {
+    margin-right: 10px; 
+}
+
+.jumbotron-content ul li img {
+    width: 23px; 
+    height:23px;
+    object-fit: contain; 
+    
+}
+
+main{
+    height: 100%;
+}
+
+main .container{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    background-color: #191c2d;
+}
+
+
+#about-me {
+    background-color: #191c2d;
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    color: #ffffff;
+    padding: 50px;
+}
+
+
+.about-container {
+    width: 130vh;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.about-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #3a3a5a;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    color: #fbbd23;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.about-content h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-family: "My Soul";
+}
+
+.skills {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill h5 {
+    margin-bottom: 5px;
+}
+
+.skills h2{
+    color: #fbbd23;
+}
+
+.progress-bar {
+    background-color: #3a3a5a;
+    height: 8px;
+    border-radius: 4px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #fbbd23;
+    height: 100%;
+    border-radius: 4px;
+}
+
+#experience-area {
+    background-color: #1f2235;
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#experience-area h2 {
+    font-size: 30px;
+    color: #b33822;
+    margin-bottom: 10px;
+}
+
+#experience-area p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.experience-card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #24263c;
+    box-shadow: 10px 10px 10px #191c2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.company-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.experience-card h3 {
+    font-size: 1.25rem;
+    color: #b33822;
+    margin-bottom: 10px;
+}
+
+.experience-card p {
+    font-size: 0.875rem;
+    color: #ccc;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
